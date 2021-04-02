@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+html {
+    /*border: black dotted 2px;*/
+    font-family: Montserrat, Helvetica, Arial;
+    padding: 0em;
+    margin: 0em;
+    background: #302F4D;
+}
+body {
+    /*border: green dotted 2px;*/
+    padding: 0em;
+    margin: 0em;
+}
+
+#wrapper {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -300px;
+    border: #020011 dashed 10px;
+    background-color:#120D31;
+    width: 600px;
+    height: 275px;
+    text-align: center;
+    box-shadow: 0px 4px 5px #020011;
+}
+
+h1 {
+    /*border: yellow solid 2px;*/
+    color: #F0EAD2;
+    font-size: 72px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+}
+
+h2 {
+    color: #FFF5F2;
+    font-style: italic;
+    font-family: "Source Sans Pro";
+}
+
+img {
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+}
