@@ -4,7 +4,7 @@ html {
     /*//border: black dotted 2px;*/
     font-family: Montserrat, Helvetica, Arial;
     font-size: 10px;
-    height: 100%;
+    height: auto;
     /* background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%); */
     /* background: rgb(255,255,255); */
     background: rgb(65,177,255);
