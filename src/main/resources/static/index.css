@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
 html {
-    /*border: black dotted 2px;*/
+    /*//border: black dotted 2px;*/
     font-family: Montserrat, Helvetica, Arial;
-    padding: 0em;
-    margin: 0em;
-    background: #302F4D;
+    font-size: 10px;
+    height: 100%;
+    /* background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%); */
+    /* background: rgb(255,255,255); */
+    background: rgb(65,177,255);
+    background: radial-gradient(circle, rgba(65,177,255,1) 0%, rgba(40,102,205,1) 100%);
 }
 body {
-    /*border: green dotted 2px;*/
-    padding: 0em;
-    margin: 0em;
+    /*//border: green dotted 2px;*/
 }
 
 #wrapper {
@@ -18,31 +19,72 @@ body {
     top: 25%;
     left: 50%;
     margin-left: -300px;
-    border: #020011 dashed 10px;
-    background-color:#120D31;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+//border: #111111 dash 7px;
+    border-radius: 1rem;
+    background-color:#FFFFFF;
     width: 600px;
-    height: 275px;
+    /*height: 275px;*/
     text-align: center;
-    box-shadow: 0px 4px 5px #020011;
+    box-shadow: 0rem 0.2rem 0.7rem #606060;
 }
 
-h1 {
-    /*border: yellow solid 2px;*/
-    color: #F0EAD2;
-    font-size: 72px;
-    text-align: center;
-    display:flex;
+.banner {
+    background-color: #49B4FF;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.banner h1 {
+//border: yellow solid 2px;
+    font-size: 7.2rem;
+    display: flex;
     justify-content:center;
+    margin: 0rem;
+    padding: 0.1rem;
 }
 
-h2 {
-    color: #FFF5F2;
-    font-style: italic;
+.banner h2 {
     font-family: "Source Sans Pro";
+    font-size:  2.4rem;
+    letter-spacing: 0.1rem;
+    margin: 0rem;
+    padding: 0.5rem;
+    text-align: center;
 }
 
-img {
-    position: absolute;
-    bottom: 0em;
-    left: 0em;
+#links{
+//border: yellow solid 1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.link {
+//border: red solid 1px;
+    position: relative;
+    height: 5rem;
+    margin: 1rem;
+}
+
+.img-icon {
+//border: purple solid 1px;
+    float: left;
+    margin-left: 38%;
+}
+
+.link-name {
+//border: green solid 1px;
+    margin-top: 1rem;
+    float: left;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    color: #49B4FF;
 }
