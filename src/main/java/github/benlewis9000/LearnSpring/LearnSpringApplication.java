@@ -16,12 +16,6 @@ import java.util.List;
 @SpringBootApplication
 public class LearnSpringApplication {
 
-	/*
-	@GetMapping("/")
-	String home(){
-		return "Coming soon...";
-	}*/
-
 	@GetMapping("/name/{name}")
 	String name(@PathVariable String name){
 		return "Hello, " + name;
