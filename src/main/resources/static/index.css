@@ -3,14 +3,15 @@
 html {
     /*//border: black dotted 2px;*/
     font-family: Montserrat, Helvetica, Arial;
-    font-size: 10px;
+	font-size: 10px;
     height: 100%;
-    background: rgb(65,177,255);
-    background: radial-gradient(circle, rgba(65,177,255,1) 0%, rgba(40,102,205,1) 100%);
 }
 body {
-    /*//border: green dotted 2px;*/
-    height: 100%
+    /*     border: green dotted 2px;*/
+    margin: 0rem;
+	height: 100%;
+    background: rgb(65,177,255);
+	background: radial-gradient(circle, rgba(65,177,255,1) 0%, rgba(40,102,205,1) 100%);
 }
 
 #wrapper {
