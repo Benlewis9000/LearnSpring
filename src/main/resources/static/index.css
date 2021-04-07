@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat');
+}
 html {
     /*//border: black dotted 2px;*/
     font-family: Montserrat, Helvetica, Arial;
@@ -50,7 +52,6 @@ body {
 }
 
 .banner h2 {
-    font-family: "Source Sans Pro";
     font-size:  2.4rem;
     letter-spacing: 0.1rem;
     margin: 0rem;
