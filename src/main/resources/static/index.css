@@ -4,30 +4,31 @@ html {
     /*//border: black dotted 2px;*/
     font-family: Montserrat, Helvetica, Arial;
     font-size: 10px;
-    height: auto;
-    /* background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%); */
-    /* background: rgb(255,255,255); */
+    height: 100%;
     background: rgb(65,177,255);
     background: radial-gradient(circle, rgba(65,177,255,1) 0%, rgba(40,102,205,1) 100%);
 }
 body {
     /*//border: green dotted 2px;*/
+    height: 100%
 }
 
 #wrapper {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    margin-left: -300px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-//border: #111111 dash 7px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#splash {
+    /* border: #111111 dash 7px; */
+	padding-top: 2rem;
+	padding-bottom: 2rem;
     border-radius: 1rem;
     background-color:#FFFFFF;
-    width: 600px;
-    /*height: 275px;*/
+    width: 60rem;
     text-align: center;
-    box-shadow: 0rem 0.2rem 0.7rem #606060;
+    box-shadow: 0rem 0.2rem 0.7rem #0e56b8;
 }
 
 .banner {
